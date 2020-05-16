@@ -3,12 +3,8 @@ import matplotlib.pyplot as py
 
 'Part 1: Solve the simple two-body problem with one-body fixed'
 
-#For motion in a plane we have four coupled differential equations
-#for the (x,y) co-ordinate and (vx,vx) velocities/momenta
-#To solve this problem we implement the following algorithm:
-#1.) Initialize with (x0,y0), (vx0,vy0)
-#2.) We have set up the RK4 equations which evalutate kn = fn(x0,y0,vx0,vy0)
-#    need to now map the f's across various inputs to get the kn at each step
+#Here is a hyperlink to some short notes on the implementation
+#https://drive.google.com/open?id=1paJBO2oj1ctsxJ_85Gi60XqsSRSxIRnNwJ6gqfcZvKI
 
 class body:
     ''' Defines a massive body object with various properties as defined in __init__
